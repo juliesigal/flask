@@ -1,5 +1,5 @@
-from tables.customers import Customers
-from tables.users import Users
+from customers import Customers
+from users import Users
 from werkzeug.security import generate_password_hash
 
 
