@@ -7,8 +7,8 @@ import jwt
 # imports for PyJWT authentication
 from db_config import local_session
 from db_repo import DbRepo
-from tables.users import Users
-from tables.customers import Customers
+from users import Users
+from customers import Customers
 # flask imports
 from flask import Flask, request, jsonify, make_response, Response
 from logger import Logger
